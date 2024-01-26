@@ -1,0 +1,7 @@
+{
+    "baseURL":"https://practicetestautomation.com/practice-test-login/",
+     "userName":"student",
+     "invaliduserName":"srini",
+     "passWord":"Password123",
+     "invalidpassword":"srini23344"
+}
