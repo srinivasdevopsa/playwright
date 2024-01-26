@@ -32,6 +32,11 @@ test.only('verify with incorrect username ',async({page}) =>{
 
 });
 test.only('verfiy with incorrect password',async({page})=>{
+
+    await page.goto('https://practicetestautomation.com/practice-test-login/');
+
+    let loginPage =new LoginPage(page)
+    await loginPage.checkInvalidPassword(page)
     // await page.goto('https://practicetestautomation.com/practice-test-login/');
     // await page.locator('//input[@id="username"]').fill('student');
     // await page.locator('//input[@id="password"]').fill('Password@123');
